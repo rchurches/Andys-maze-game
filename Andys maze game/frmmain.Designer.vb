@@ -69,6 +69,8 @@ Partial Class frmmain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.Andys_maze_game.My.Resources.Resources.maze3
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(440, 254)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnDouble)
