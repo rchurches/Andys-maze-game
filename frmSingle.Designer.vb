@@ -36,6 +36,8 @@ Partial Class frmSingle
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.lblFinish = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         CType(Me.picboxplayer, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBack, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -44,35 +46,42 @@ Partial Class frmSingle
         '
         Me.lblTimersignle.AutoSize = True
         Me.lblTimersignle.Font = New System.Drawing.Font("Showcard Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblTimersignle.Location = New System.Drawing.Point(753, 18)
+        Me.lblTimersignle.Location = New System.Drawing.Point(1076, 30)
+        Me.lblTimersignle.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTimersignle.Name = "lblTimersignle"
-        Me.lblTimersignle.Size = New System.Drawing.Size(35, 20)
+        Me.lblTimersignle.Size = New System.Drawing.Size(51, 30)
         Me.lblTimersignle.TabIndex = 0
         Me.lblTimersignle.Text = "120"
         '
         'btnHome
         '
-        Me.btnHome.Location = New System.Drawing.Point(812, 72)
+        Me.btnHome.Location = New System.Drawing.Point(1160, 120)
+        Me.btnHome.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnHome.Name = "btnHome"
-        Me.btnHome.Size = New System.Drawing.Size(50, 37)
+        Me.btnHome.Size = New System.Drawing.Size(71, 62)
         Me.btnHome.TabIndex = 1
         Me.btnHome.Text = "home"
         Me.btnHome.UseVisualStyleBackColor = True
         '
+        'Timer1
+        '
+        '
         'picboxplayer
         '
         Me.picboxplayer.BackColor = System.Drawing.Color.Black
-        Me.picboxplayer.Location = New System.Drawing.Point(115, 80)
+        Me.picboxplayer.Location = New System.Drawing.Point(164, 133)
+        Me.picboxplayer.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picboxplayer.Name = "picboxplayer"
-        Me.picboxplayer.Size = New System.Drawing.Size(20, 20)
+        Me.picboxplayer.Size = New System.Drawing.Size(29, 33)
         Me.picboxplayer.TabIndex = 2
         Me.picboxplayer.TabStop = False
         '
         'picBack
         '
-        Me.picBack.Location = New System.Drawing.Point(1, 1)
+        Me.picBack.Location = New System.Drawing.Point(1, 2)
+        Me.picBack.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picBack.Name = "picBack"
-        Me.picBack.Size = New System.Drawing.Size(752, 460)
+        Me.picBack.Size = New System.Drawing.Size(1074, 767)
         Me.picBack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBack.TabIndex = 3
         Me.picBack.TabStop = False
@@ -80,72 +89,100 @@ Partial Class frmSingle
         'Label1
         '
         Me.Label1.BackColor = System.Drawing.Color.Blue
-        Me.Label1.Location = New System.Drawing.Point(69, 18)
+        Me.Label1.Location = New System.Drawing.Point(99, 30)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(479, 10)
+        Me.Label1.Size = New System.Drawing.Size(684, 17)
         Me.Label1.TabIndex = 4
         '
         'Label2
         '
         Me.Label2.BackColor = System.Drawing.Color.Blue
-        Me.Label2.Location = New System.Drawing.Point(69, 23)
+        Me.Label2.Location = New System.Drawing.Point(99, 38)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(10, 176)
+        Me.Label2.Size = New System.Drawing.Size(14, 293)
         Me.Label2.TabIndex = 5
         '
         'Label3
         '
         Me.Label3.BackColor = System.Drawing.Color.Blue
-        Me.Label3.Location = New System.Drawing.Point(538, 18)
+        Me.Label3.Location = New System.Drawing.Point(769, 30)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(10, 118)
+        Me.Label3.Size = New System.Drawing.Size(14, 197)
         Me.Label3.TabIndex = 7
         '
         'Label4
         '
         Me.Label4.BackColor = System.Drawing.Color.Blue
-        Me.Label4.Location = New System.Drawing.Point(69, 199)
+        Me.Label4.Location = New System.Drawing.Point(99, 332)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(479, 10)
+        Me.Label4.Size = New System.Drawing.Size(684, 17)
         Me.Label4.TabIndex = 6
         '
         'Label5
         '
         Me.Label5.BackColor = System.Drawing.Color.Blue
-        Me.Label5.Location = New System.Drawing.Point(538, 136)
+        Me.Label5.Location = New System.Drawing.Point(769, 227)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(85, 10)
+        Me.Label5.Size = New System.Drawing.Size(121, 17)
         Me.Label5.TabIndex = 8
         '
         'Label6
         '
         Me.Label6.BackColor = System.Drawing.Color.Blue
-        Me.Label6.Location = New System.Drawing.Point(613, 136)
+        Me.Label6.Location = New System.Drawing.Point(876, 227)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(10, 188)
+        Me.Label6.Size = New System.Drawing.Size(14, 313)
         Me.Label6.TabIndex = 9
         '
         'Label7
         '
         Me.Label7.BackColor = System.Drawing.Color.Blue
-        Me.Label7.Location = New System.Drawing.Point(538, 199)
+        Me.Label7.Location = New System.Drawing.Point(769, 332)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(10, 118)
+        Me.Label7.Size = New System.Drawing.Size(14, 197)
         Me.Label7.TabIndex = 10
         '
         'lblFinish
         '
         Me.lblFinish.Image = Global.Andys_maze_game.My.Resources.Resources.finishline
-        Me.lblFinish.Location = New System.Drawing.Point(538, 335)
+        Me.lblFinish.Location = New System.Drawing.Point(481, 700)
+        Me.lblFinish.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblFinish.Name = "lblFinish"
-        Me.lblFinish.Size = New System.Drawing.Size(104, 23)
+        Me.lblFinish.Size = New System.Drawing.Size(149, 38)
         Me.lblFinish.TabIndex = 11
+        '
+        'Label8
+        '
+        Me.Label8.BackColor = System.Drawing.Color.Blue
+        Me.Label8.Location = New System.Drawing.Point(782, 509)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(14, 197)
+        Me.Label8.TabIndex = 12
+        '
+        'Label9
+        '
+        Me.Label9.BackColor = System.Drawing.Color.Blue
+        Me.Label9.Location = New System.Drawing.Point(834, 540)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(121, 17)
+        Me.Label9.TabIndex = 13
         '
         'frmSingle
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(884, 461)
+        Me.ClientSize = New System.Drawing.Size(1263, 768)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.lblFinish)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -159,6 +196,7 @@ Partial Class frmSingle
         Me.Controls.Add(Me.lblTimersignle)
         Me.Controls.Add(Me.picBack)
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "frmSingle"
         Me.Text = "frmSingle"
         CType(Me.picboxplayer, System.ComponentModel.ISupportInitialize).EndInit()
@@ -181,4 +219,6 @@ Partial Class frmSingle
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents lblFinish As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
 End Class

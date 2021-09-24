@@ -1,0 +1,42 @@
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\bin\Debug\net5.0-windows\Andys maze game.exe
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\bin\Debug\net5.0-windows\Andys maze game.deps.json
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\bin\Debug\net5.0-windows\Andys maze game.runtimeconfig.json
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\bin\Debug\net5.0-windows\Andys maze game.runtimeconfig.dev.json
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\bin\Debug\net5.0-windows\Andys maze game.dll
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\bin\Debug\net5.0-windows\ref\Andys maze game.dll
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\bin\Debug\net5.0-windows\Andys maze game.pdb
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.vbproj.AssemblyReference.cache
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys_maze_game.frmDouble.resources
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys_maze_game.frmmain.resources
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys_maze_game.frmSingle.resources
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys_maze_game.Resources.resources
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.vbproj.GenerateResource.cache
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.AssemblyInfoInputs.cache
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.AssemblyInfo.vb
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.vbproj.CoreCompileInputs.cache
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.dll
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\ref\Andys maze game.dll
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.pdb
+C:\Users\rchurches\source\repos\Andys maze game\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.genruntimeconfig.cache
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.vbprojAssemblyReference.cache
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys_maze_game.frmDouble.resources
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys_maze_game.frmmain.resources
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys_maze_game.frmSingle.resources
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys_maze_game.Resources.resources
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.vbproj.GenerateResource.cache
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.AssemblyInfoInputs.cache
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.AssemblyInfo.vb
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.vbproj.CoreCompileInputs.cache
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.dll
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\ref\Andys maze game.dll
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.pdb
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\bin\Debug\net5.0-windows\Andys maze game.exe
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\bin\Debug\net5.0-windows\Andys maze game.deps.json
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\bin\Debug\net5.0-windows\Andys maze game.runtimeconfig.json
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\bin\Debug\net5.0-windows\Andys maze game.runtimeconfig.dev.json
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\bin\Debug\net5.0-windows\Andys maze game.dll
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\bin\Debug\net5.0-windows\ref\Andys maze game.dll
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\bin\Debug\net5.0-windows\Andys maze game.pdb
+C:\Users\amusgrave\source\repos\Andys maze game V2\Andys maze game\obj\Debug\net5.0-windows\Andys maze game.genruntimeconfig.cache

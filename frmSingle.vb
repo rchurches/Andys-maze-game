@@ -57,18 +57,22 @@
             BacktoHome()
 
         End If
-        'If picboxplayer.Bounds.IntersectsWith(Label8.Bounds) Then
-        '    BacktoHome()
+        If picboxplayer.Bounds.IntersectsWith(Label8.Bounds) Then
+            BacktoHome()
 
-        'End If
+        End If
+        If picboxplayer.Bounds.IntersectsWith(Label9.Bounds) Then
+            BacktoHome()
+
+        End If
         If picboxplayer.Bounds.IntersectsWith(lblFinish.Bounds) Then
-            MsgBox("Yippee!!!!! :-)")
+            MsgBox("yee")
 
         End If
 
     End Sub
     Private Sub BacktoHome()
-        MsgBox("Ouch you hit the wall. Back you go")
+        MsgBox("you hit the wall. Back you go to the in the begining")
         picboxplayer.Top = 80
         picboxplayer.Left = 115
 
