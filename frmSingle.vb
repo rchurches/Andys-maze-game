@@ -33,6 +33,10 @@
         '    BacktoHome()
 
         'End If
+        f picboxplayer.Bounds.IntersectsWith(Label1.Bounds) Then
+            BacktoHome()
+
+        End If
         If picboxplayer.Bounds.IntersectsWith(Label10.Bounds) Then
             BacktoHome()
 
