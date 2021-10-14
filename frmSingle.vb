@@ -33,6 +33,10 @@
         '    BacktoHome()
 
         'End If
+        If picboxplayer.Bounds.IntersectsWith(Label10.Bounds) Then
+            BacktoHome()
+
+        End If
         If picboxplayer.Bounds.IntersectsWith(Label2.Bounds) Then
             BacktoHome()
 
@@ -127,6 +131,10 @@
         Else
             lblTimersignle.Text = Val(lblTimersignle.Text) - 1
         End If
+
+    End Sub
+
+    Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
 
     End Sub
 End Class

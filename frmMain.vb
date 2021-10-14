@@ -14,7 +14,7 @@
 
         MsgBox("avoid the walls")
 
-        MsgBox("get to the finish line before the time riuns out")
+        MsgBox("get to the finish line before the time runs out")
 
         MsgBox("controls w-up s-dpwn a-left d-right")
 
@@ -31,7 +31,7 @@
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-        If MessageBox.Show("would you like to try agaoin=hfrryr", "GAME OVER", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = Windows.Forms.DialogResult.Yes Then
+        If MessageBox.Show("would you like to try again", "GAME OVER", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = Windows.Forms.DialogResult.Yes Then
             Me.Close()
 
         End If

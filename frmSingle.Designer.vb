@@ -23,6 +23,7 @@ Partial Class frmSingle
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSingle))
         Me.lblTimersignle = New System.Windows.Forms.Label()
         Me.btnHome = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
@@ -38,6 +39,7 @@ Partial Class frmSingle
         Me.lblFinish = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
         CType(Me.picboxplayer, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBack, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -68,17 +70,19 @@ Partial Class frmSingle
         '
         'picboxplayer
         '
-        Me.picboxplayer.BackColor = System.Drawing.Color.Black
-        Me.picboxplayer.Location = New System.Drawing.Point(164, 133)
+        Me.picboxplayer.BackColor = System.Drawing.Color.Transparent
+        Me.picboxplayer.BackgroundImage = CType(resources.GetObject("picboxplayer.BackgroundImage"), System.Drawing.Image)
+        Me.picboxplayer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.picboxplayer.Location = New System.Drawing.Point(165, 133)
         Me.picboxplayer.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picboxplayer.Name = "picboxplayer"
-        Me.picboxplayer.Size = New System.Drawing.Size(29, 33)
+        Me.picboxplayer.Size = New System.Drawing.Size(48, 34)
         Me.picboxplayer.TabIndex = 2
         Me.picboxplayer.TabStop = False
         '
         'picBack
         '
-        Me.picBack.Location = New System.Drawing.Point(1, 2)
+        Me.picBack.Location = New System.Drawing.Point(53, 4)
         Me.picBack.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picBack.Name = "picBack"
         Me.picBack.Size = New System.Drawing.Size(1074, 767)
@@ -161,26 +165,36 @@ Partial Class frmSingle
         'Label8
         '
         Me.Label8.BackColor = System.Drawing.Color.Blue
-        Me.Label8.Location = New System.Drawing.Point(782, 509)
+        Me.Label8.Location = New System.Drawing.Point(557, 529)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(14, 197)
+        Me.Label8.Size = New System.Drawing.Size(226, 22)
         Me.Label8.TabIndex = 12
         '
         'Label9
         '
         Me.Label9.BackColor = System.Drawing.Color.Blue
-        Me.Label9.Location = New System.Drawing.Point(834, 540)
+        Me.Label9.Location = New System.Drawing.Point(249, 260)
         Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(121, 17)
+        Me.Label9.Size = New System.Drawing.Size(18, 71)
         Me.Label9.TabIndex = 13
+        '
+        'Label10
+        '
+        Me.Label10.BackColor = System.Drawing.Color.Blue
+        Me.Label10.Location = New System.Drawing.Point(164, 242)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(136, 18)
+        Me.Label10.TabIndex = 14
         '
         'frmSingle
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1263, 768)
+        Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.lblFinish)
@@ -221,4 +235,5 @@ Partial Class frmSingle
     Friend WithEvents lblFinish As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
+    Friend WithEvents Label10 As Label
 End Class
