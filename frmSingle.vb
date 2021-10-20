@@ -33,7 +33,7 @@
         '    BacktoHome()
 
         'End If
-        f picboxplayer.Bounds.IntersectsWith(Label1.Bounds) Then
+        If picboxplayer.Bounds.IntersectsWith(Label1.Bounds) Then
             BacktoHome()
 
         End If
@@ -70,6 +70,10 @@
 
         End If
         If picboxplayer.Bounds.IntersectsWith(Label9.Bounds) Then
+            BacktoHome()
+
+        End If
+        If picboxplayer.Bounds.IntersectsWith(Label11.Bounds) Then
             BacktoHome()
 
         End If
@@ -139,6 +143,10 @@
     End Sub
 
     Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
+
+    End Sub
+
+    Private Sub picboxplayer_Click(sender As Object, e As EventArgs) Handles picboxplayer.Click
 
     End Sub
 End Class

@@ -40,6 +40,7 @@ Partial Class frmSingle
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
         CType(Me.picboxplayer, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBack, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -73,6 +74,7 @@ Partial Class frmSingle
         Me.picboxplayer.BackColor = System.Drawing.Color.Transparent
         Me.picboxplayer.BackgroundImage = CType(resources.GetObject("picboxplayer.BackgroundImage"), System.Drawing.Image)
         Me.picboxplayer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.picboxplayer.Image = CType(resources.GetObject("picboxplayer.Image"), System.Drawing.Image)
         Me.picboxplayer.Location = New System.Drawing.Point(165, 133)
         Me.picboxplayer.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picboxplayer.Name = "picboxplayer"
@@ -165,10 +167,10 @@ Partial Class frmSingle
         'Label8
         '
         Me.Label8.BackColor = System.Drawing.Color.Blue
-        Me.Label8.Location = New System.Drawing.Point(557, 529)
+        Me.Label8.Location = New System.Drawing.Point(561, 529)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(226, 22)
+        Me.Label8.Size = New System.Drawing.Size(222, 11)
         Me.Label8.TabIndex = 12
         '
         'Label9
@@ -183,17 +185,27 @@ Partial Class frmSingle
         'Label10
         '
         Me.Label10.BackColor = System.Drawing.Color.Blue
-        Me.Label10.Location = New System.Drawing.Point(164, 242)
+        Me.Label10.Location = New System.Drawing.Point(164, 243)
         Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(136, 18)
+        Me.Label10.Size = New System.Drawing.Size(103, 17)
         Me.Label10.TabIndex = 14
+        '
+        'Label11
+        '
+        Me.Label11.BackColor = System.Drawing.Color.Blue
+        Me.Label11.Location = New System.Drawing.Point(307, 47)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(17, 213)
+        Me.Label11.TabIndex = 15
         '
         'frmSingle
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1263, 768)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
@@ -236,4 +248,5 @@ Partial Class frmSingle
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
+    Friend WithEvents Label11 As Label
 End Class
